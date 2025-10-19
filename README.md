@@ -69,6 +69,3 @@ You can persist or share the knowledge base as a compressed file: [vectordb.zip]
 5. ⚡ **LangChain** — [LangChain Framework](https://www.langchain.com/)
 6. 📘 **PyMuPDF (fitz)** — [PyMuPDF Docs](https://pymupdf.readthedocs.io/en/latest/)
 7. 🐍 **llama.cpp** — [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
-
-
-Would you like me to now **enhance the Graphviz diagram** with *real icons* (Hugging Face, IBM, Qdrant, Google Gemma, etc.) via image URLs — so it renders like a professional architecture poster when exported as SVG or PNG?
