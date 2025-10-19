@@ -18,16 +18,16 @@ Below is a **architecture diagram** showing the complete flow.
 
 ## 🧠 End-to-End Workflow
 
-| Step                        | Description                                 | Tool                       |
-| --------------------------- | ------------------------------------------- | -------------------------- |
-| **1. PDF Extraction**       | Extracts structured text from DIY PDFs      | `PyMuPDF`                  |
-| **2. Topic Segmentation**   | Identifies numbered topics and sections     | `Regex`                    |
-| **3. Chunking**             | Splits text into manageable semantic chunks | `LangChain TextSplitter`   |
-| **4. Embedding Generation** | Encodes text into dense vectors             | `IBM Granite Embeddings`   |
-| **5. Vector Storage**       | Stores and indexes embeddings               | `Qdrant Local VectorDB`    |
-| **6. Retrieval**            | Finds top-K relevant chunks                 | `Cosine Similarity`        |
-| **7. Reranking**            | Refines context relevance                   | `IBM Granite CrossEncoder` |
-| **8. Answer Generation**    | Produces final, confident response          | `Gemma-3 via llama.cpp`    |
+| Step                        | Description                                 |
+| --------------------------- | ------------------------------------------- | 
+| **1. PDF Extraction**       | Extracts structured text from DIY PDFs      | 
+| **2. Topic Segmentation**   | Identifies numbered topics and sections     |
+| **3. Chunking**             | Splits text into manageable semantic chunks | 
+| **4. Embedding Generation** | Encodes text into dense vectors             | 
+| **5. Vector Storage**       | Stores and indexes embeddings               | 
+| **6. Retrieval**            | Finds top-K relevant chunks                 |
+| **7. Reranking**            | Refines context relevance                   | 
+| **8. Answer Generation**    | Produces final, confident response          | 
 
 
 ## 🧪 Working Example
