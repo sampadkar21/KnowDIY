@@ -14,7 +14,7 @@
 ## 🧩 System Architecture
 
 Below is a **architecture diagram** showing the complete flow.
-
+![architecture](workflow.png)
 
 ## 🧠 End-to-End Workflow
 
@@ -61,9 +61,7 @@ To ensure consistent and professional answers, the model prompt enforces:
 
 ## 📦 Exporting Vector Store
 
-You can persist or share the knowledge base as a compressed file:
-
-
+You can persist or share the knowledge base as a compressed file: ![vectordb.zip]
 
 ## 📚 Citations & Resources
 
