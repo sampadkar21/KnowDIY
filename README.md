@@ -29,9 +29,9 @@ Below is a **architecture diagram** showing the complete flow.
 | **7. Reranking**            | Refines context relevance                   | 
 | **8. Answer Generation**    | Produces final, confident response          | 
 
-
 ## 🧪 Working Example
-[![Watch Demo](./working_example.mp4)  
+
+![Watch the DIY Expert Assistant Demo](./working_example.gif) 
 
 ## 🧩 Tech Stack
 
@@ -56,10 +56,9 @@ To ensure consistent and professional answers, the model prompt enforces:
 * No counter-questions to the user (stateless mode)
 * No hallucination — respond only if answer is known
 
-
 ## 📦 Exporting Vector Store
 
-You can persist or share the knowledge base as a compressed file:[vectordb.zip](./vectordb.zip)
+You can persist or share the knowledge base as a compressed file: [vectordb.zip](./vectordb.zip)
 
 ## 📚 Citations & Resources
 
