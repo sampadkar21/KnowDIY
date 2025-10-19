@@ -31,9 +31,7 @@ Below is a **architecture diagram** showing the complete flow.
 
 
 ## 🧪 Working Example
-
-
-
+[![Watch Demo](./working_example.mp4)  
 
 ## 🧩 Tech Stack
 
@@ -61,7 +59,7 @@ To ensure consistent and professional answers, the model prompt enforces:
 
 ## 📦 Exporting Vector Store
 
-You can persist or share the knowledge base as a compressed file: ![vectordb.zip]
+You can persist or share the knowledge base as a compressed file:[vectordb.zip](./vectordb.zip)
 
 ## 📚 Citations & Resources
 
