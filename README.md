@@ -3,8 +3,6 @@
 > **An intelligent offline chatbot** that answers Do-It-Yourself (DIY) questions using a *retrieval-augmented generation* pipeline.
 > It combines **IBM Granite embeddings**, **Qdrant vector search**, **Gemma-3 reasoning**, and **LangChain preprocessing** — all running locally.
 
----
-
 ## 🚀 Highlights
 
 * 📘 Extracts and segments text intelligently from large DIY eBooks (PDF)
@@ -13,15 +11,10 @@
 * ⚡ Runs entirely **offline** with **local Qdrant vector storage**
 * 🧩 Modular — easily extendable to API, Streamlit, or production UI
 
----
-
 ## 🧩 System Architecture
 
 Below is a **architecture diagram** showing the complete flow.
 
-
-
----
 
 ## 🧠 End-to-End Workflow
 
@@ -36,13 +29,11 @@ Below is a **architecture diagram** showing the complete flow.
 | **7. Reranking**            | Refines context relevance                   | `IBM Granite CrossEncoder` |
 | **8. Answer Generation**    | Produces final, confident response          | `Gemma-3 via llama.cpp`    |
 
----
 
 ## 🧪 Working Example
 
 
 
----
 
 ## 🧩 Tech Stack
 
@@ -56,7 +47,6 @@ Below is a **architecture diagram** showing the complete flow.
 | **LLM**             | 🤖 Gemma 3-4B-IT             | Answer generation via `llama.cpp` |
 | **Orchestration**   | 🧠 Python + Hugging Face     | End-to-end pipeline control       |
 
----
 
 ## 🧠 Prompt Policy
 
@@ -68,14 +58,12 @@ To ensure consistent and professional answers, the model prompt enforces:
 * No counter-questions to the user (stateless mode)
 * No hallucination — respond only if answer is known
 
----
 
 ## 📦 Exporting Vector Store
 
 You can persist or share the knowledge base as a compressed file:
 
 
----
 
 ## 📚 Citations & Resources
 
